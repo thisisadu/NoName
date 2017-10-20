@@ -87,7 +87,7 @@ $(function() {
   });
   // Only show recent
   toc.hide();
-  //toc.slice(0, {{ site.recent_num }}).fadeIn(350);
+  toc.slice(0,10).fadeIn(350);
 
   // Menu
   menu.on('click', function() {
