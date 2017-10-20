@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<article class="post container">
+	<div class="post-meta">
+    		<span class="post-meta-span date">{{ article.date }}</span>
+    		<span class="post-meta-span tag">{{ article.category }}</span>
+  	</div>
+       	<h1 class="post-title">{{ article.title }}</h1>
+	{{ article.content }}
+</article>
+{% endblock %}
+
